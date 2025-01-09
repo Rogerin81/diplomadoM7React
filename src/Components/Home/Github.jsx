@@ -1,5 +1,5 @@
 import GitHubLogo from "../../assets/github.svg";
-const Git = () =>{
+const GitHub = () =>{
     return(
         <div>
              <a href="https://github.com" target="_blank">
@@ -8,4 +8,4 @@ const Git = () =>{
         </div>
     );
 };
-export default Git;
+export default GitHub;
