@@ -2,8 +2,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import valor from '../../store/features/counter/CounterSlice.js'
 
 const Counter = () => {
-  const valor = useSelector((state) => state.counter.value)
-  const isLogged = useSelector((state) => state.counter.isLogged)
+  const valor = useSelector((state) => state.counter.valor)
   const dispatch = useDispatch()
 
   return (

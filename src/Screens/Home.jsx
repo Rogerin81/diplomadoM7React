@@ -7,11 +7,12 @@ import OpenLink from "../Components/Core/OpenLink";
 import viteLogo from "../assets/vite.svg";
 import reactLogo from "../assets/react.svg";
 import GitHubLogo from "../assets/github.svg";
-
+import { useSelector } from "react-redux";
 const Home = () =>{
+    const count = useSelector((state) => state.counter.value)
     return (
         <div>
-            <Valor />
+            <span>{count}</span>
             <div>
             <OpenLink redirectURL="https://vite.dev" logoImage={viteLogo} altDescription="Vite"/>
             <OpenLink redirectURL="https://react.dev" logoImage={reactLogo} altDescription="React"/>
