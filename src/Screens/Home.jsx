@@ -1,3 +1,4 @@
+import Valor from "../Components/Counter/Valor"
 import Body from "../Components/Home/Body"
 import Footer from "../Components/Home/Footer"
 //import Logo from "../Components/Home/Logo"
@@ -10,6 +11,7 @@ import GitHubLogo from "../assets/github.svg";
 const Home = () =>{
     return (
         <div>
+            <Valor />
             <div>
             <OpenLink redirectURL="https://vite.dev" logoImage={viteLogo} altDescription="Vite"/>
             <OpenLink redirectURL="https://react.dev" logoImage={reactLogo} altDescription="React"/>
