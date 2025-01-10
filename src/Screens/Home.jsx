@@ -1,4 +1,3 @@
-import Valor from "../Components/Counter/Valor"
 import Body from "../Components/Home/Body"
 import Footer from "../Components/Home/Footer"
 //import Logo from "../Components/Home/Logo"
