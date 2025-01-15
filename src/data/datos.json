@@ -1,0 +1,8 @@
+[
+  { "category": "Frutas", "price": "$1", "stocked": true, "name": "Apple" },
+  { "category": "Frutas", "price": "$1", "stocked": true, "name": "Dragonfruit" },
+  { "category": "Frutas", "price": "$2", "stocked": false, "name": "Passionfruit" },
+  { "category": "Vegatales", "price": "$2", "stocked": true, "name": "Spinach" },
+  { "category": "Vegatales", "price": "$4", "stocked": false, "name": "Pumpkin" },
+  { "category": "Vegetales", "price": "$1", "stocked": true, "name": "Peas" }
+]

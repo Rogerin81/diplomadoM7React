@@ -4,6 +4,7 @@ const initialState = {
   //define todas las variables globales del componente Counter.jsx
   value: 7,
   isLogged : 'false',
+  valor:7,
 }
 
 export const counterSlice = createSlice({
