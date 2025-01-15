@@ -5,7 +5,7 @@ const SearchBar = ({filterText, inStockOnly, onFilterTextChange, onInStockOnlyCh
       <table border="1" width = "300">
           <input type="text" 
           value={filterText}
-          placeholder="Search..." 
+          placeholder="Buscar.." 
           onChange={(e) => onFilterTextChange(e.target.value)}/>
           <br />
           <label>
@@ -13,7 +13,7 @@ const SearchBar = ({filterText, inStockOnly, onFilterTextChange, onInStockOnlyCh
           checked={inStockOnly} 
           onChange={(e) => onInStockOnlyChange(e.target.checked)}/>
           {' '}
-          Only show products in stock
+          Mostrar solo productos en Stock
           </label>
       </table>
     </form>

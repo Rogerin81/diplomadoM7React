@@ -34,8 +34,8 @@ const ProductTable = ({ products, filterText, inStockOnly }) =>{
       <table border = "1" width ="300">
         <thead>
           <tr>
-            <th>Name  </th>
-            <th>Price </th>
+            <th>Nombre</th>
+            <th>Precio</th>
           </tr>
         </thead>
         <tbody>{rows}</tbody>
