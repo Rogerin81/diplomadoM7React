@@ -3,7 +3,8 @@ const Product = () => {
     return (
         <div>
             <FilterProductTable/><br />
-            <span>Trabajo Realizado por el Ing Roger A. Ibarra</span>
+            <span>Trabajo Realizado por: </span><br />
+            <h3>Ing. Roger Armando Ibarra Chavarría</h3>
         </div>
     )
 }
